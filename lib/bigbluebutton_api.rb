@@ -72,7 +72,7 @@ module BigBlueButton
       @url = url
       @secret = secret
       @debug = debug
-      @timeout = 10         # default timeout for api requests
+      @timeout = 20         # default timeout for api requests
       @request_headers = {} # http headers sent in all requests
 
       version = nil if version && version.strip.empty?
